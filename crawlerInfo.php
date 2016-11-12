@@ -1,4 +1,3 @@
-
 <?php
 //Written By Ben Weinfeld
 //Bar Crawler Info Script
@@ -11,7 +10,7 @@ header('Access-Control-Allows-Methods: GET, POST');
 header('Access-Control-Max-Age: 1000');
 header('Access-Control-Allow-Headers: Content-Type Authorization, X-Requested-With');
 if($_SERVER["REQUEST_METHOD"] == "POST"){
-	getNextOrder();;
+	getNextOrder();
 }
 elseif($_SERVER["REQUEST_METHOD"] == "GET"){
 	getNextOrder();
