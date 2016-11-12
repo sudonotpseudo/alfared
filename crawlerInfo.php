@@ -3,7 +3,7 @@
 //Written By Ben Weinfeld
 //Bar Crawler Info Script
 function barInfo() {
-	echo "data": {"info": "This is info"};
+	echo json_encode("data");
 }
 
 header('Access-Control-Allow-Origin: *');
